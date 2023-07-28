@@ -77,7 +77,7 @@ export default function Example() {
                   Styled Components 💅
                 </a>
                 <a
-                  href='https://tailwindcss.com/docs'
+                  href='https://styled-components.com/docs'
                   className='rounded-md mt-1 bg-white px-3.5 py-2.5 text-sm font-semibold text-orange-600 shadow-sm hover:bg-orange-200 border-orange-600 border focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600'
                 >
                   Docs
@@ -91,7 +91,7 @@ export default function Example() {
                   SASS 🎀
                 </a>
                 <a
-                  href='https://tailwindcss.com/docs'
+                  href='https://sass-lang.com/documentation/'
                   className='rounded-md mt-1 bg-white px-3.5 py-2.5 text-sm font-semibold text-pink-600 shadow-sm hover:bg-pink-200 border-pink-600 border focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-pink-600'
                 >
                   Docs
