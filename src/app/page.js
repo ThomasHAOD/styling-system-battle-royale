@@ -25,7 +25,7 @@ export default function Example() {
             <p className='mt-6 text-lg leading-8 text-gray-600'>
               In this repo you will find three folders in the{' '}
               <code className='font-mono bg-slate-400 px-1 py-0.5 rounded'>
-                app
+                /app
               </code>{' '}
               directory.
             </p>
@@ -33,32 +33,70 @@ export default function Example() {
               You can view each of the pages you need to style using the buttons
               below.
             </p>
-            <p className=' text-lg leading-8 text-gray-600'>
+            <p className='text-lg leading-8 text-gray-600'>
+              Each page is setup to be styled using its respective styling
+              system.
+            </p>
+            <p className='text-lg leading-8 border p-3 bg-slate-600 text-white rounded-lg'>
+              You can find the target design{' '}
+              <a
+                href='https://www.figma.com/file/wNHVHAsCf4rfWB9orZB9Y4/Styling-System-Design-Test?type=design&node-id=1%3A2&mode=design&t=xwLGSU617OSbvef4-1'
+                className='cursor-pointer underline hover:text-blue-200'
+              >
+                here
+              </a>
+              .
+            </p>
+            <p className='mt-2 text-lg leading-8 text-gray-600'>
               Any of the links in the{' '}
               <code className='font-mono bg-slate-400 px-1 py-0.5 rounded'>
                 nav
               </code>{' '}
-              component will bring you back here
+              component will bring you back to this page.
             </p>
             <div className='mt-10 flex items-center justify-center gap-x-6'>
-              <a
-                href='tailwind'
-                className='rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600'
-              >
-                Tailwind
-              </a>
-              <a
-                href='styled-components'
-                className='rounded-md bg-orange-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600'
-              >
-                Styled Components 💩
-              </a>
-              <a
-                href='sass'
-                className='rounded-md bg-pink-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-pink-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-pink-600'
-              >
-                SASS
-              </a>
+              <div className='flex flex-col'>
+                <a
+                  href='tailwind'
+                  className='rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600'
+                >
+                  Tailwind 🍃
+                </a>
+                <a
+                  href='https://tailwindcss.com/docs'
+                  className='rounded-md mt-1 bg-white px-3.5 py-2.5 text-sm font-semibold text-indigo-600 shadow-sm hover:bg-indigo-200 border-indigo-600 border focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600'
+                >
+                  Docs
+                </a>
+              </div>
+              <div className='flex flex-col'>
+                <a
+                  href='styled-components'
+                  className='rounded-md bg-orange-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600'
+                >
+                  Styled Components 💅
+                </a>
+                <a
+                  href='https://tailwindcss.com/docs'
+                  className='rounded-md mt-1 bg-white px-3.5 py-2.5 text-sm font-semibold text-orange-600 shadow-sm hover:bg-orange-200 border-orange-600 border focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600'
+                >
+                  Docs
+                </a>
+              </div>
+              <div className='flex flex-col'>
+                <a
+                  href='sass'
+                  className='rounded-md bg-pink-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-pink-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-pink-600'
+                >
+                  SASS 🎀
+                </a>
+                <a
+                  href='https://tailwindcss.com/docs'
+                  className='rounded-md mt-1 bg-white px-3.5 py-2.5 text-sm font-semibold text-pink-600 shadow-sm hover:bg-pink-200 border-pink-600 border focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-pink-600'
+                >
+                  Docs
+                </a>
+              </div>
             </div>
           </div>
         </div>
